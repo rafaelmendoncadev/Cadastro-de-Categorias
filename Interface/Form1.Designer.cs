@@ -78,6 +78,7 @@
             this.dgvCategorias.Name = "dgvCategorias";
             this.dgvCategorias.Size = new System.Drawing.Size(388, 150);
             this.dgvCategorias.TabIndex = 4;
+            this.dgvCategorias.SelectionChanged += new System.EventHandler(this.dgvCategorias_SelectionChanged);
             // 
             // btnInserir
             // 
@@ -87,6 +88,7 @@
             this.btnInserir.TabIndex = 5;
             this.btnInserir.Text = "Inserir";
             this.btnInserir.UseVisualStyleBackColor = true;
+            this.btnInserir.Click += new System.EventHandler(this.btnInserir_Click);
             // 
             // btnAtualizar
             // 
@@ -96,6 +98,7 @@
             this.btnAtualizar.TabIndex = 6;
             this.btnAtualizar.Text = "Atualizar";
             this.btnAtualizar.UseVisualStyleBackColor = true;
+            this.btnAtualizar.Click += new System.EventHandler(this.btnAtualizar_Click);
             // 
             // btnExcluir
             // 
@@ -105,6 +108,7 @@
             this.btnExcluir.TabIndex = 7;
             this.btnExcluir.Text = "Excluir";
             this.btnExcluir.UseVisualStyleBackColor = true;
+            this.btnExcluir.Click += new System.EventHandler(this.btnExcluir_Click);
             // 
             // Form1
             // 
